@@ -11,21 +11,20 @@
  
 
 ### Resources
-- Data Source: [LoanStats_2019q1.csv](https://github.com/stephenanayashilliard/Credit_Risk_Analyis/blob/main/Resources/LoanStats_2019Q1.csv)
+- Data Source: [LoanStats_2019q1.csv](https://github.com/MiguelDi/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
 
 - Software:
- - Python 3.6.1
+ - Python 3.8
  - Jupyter Notebook
    - Libraries
-     - Numpy
-     - Pandas
-     - Pathlib
-     - Path
-     - scipy
-     - scikit-learn
-     - imbalanced-learn
-  - Collections
-    - Counter  
+     - Numpy.
+     - Pandas.
+     - Pathlib.
+     - Path.
+     - Scipy.
+     - Scikit-Learn.
+     - Imbalanced-Learn.
+ 
  
 
 ## Results of Analysis
@@ -82,10 +81,9 @@
 
 - ## Summary
 
-s
+![Summary_Table](Screenshots/Summary_Table.png)
 
 
-
-- ### Recommendation
+###  Recommendation
 
 It is recommended that the Balanced Random Forest Classifier be used to assist in machine learning due to it having the the best Balanced Accuracy Score of 78% and the best overall Average Recall of 91%.
